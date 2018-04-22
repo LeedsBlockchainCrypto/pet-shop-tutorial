@@ -5,7 +5,7 @@ http://truffleframework.com/tutorials/pet-shop
 I had to modify app.js
 
 initWeb3: function() {
-    // Is there an injected web3 instance?
+      // Is there an injected web3 instance?
 
     if (typeof web3 !== 'undefined') {
       App.web3Provider = web3.currentProvider;
