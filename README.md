@@ -19,7 +19,7 @@ initWeb3: function() {
 
 to
 
-initWeb3: function() {
+initWeb3: function() {  
     // Is there an injected web3 instance?
       // If no injected web3 instance is detected, fall back to Ganache
     App.web3Provider = new Web3.providers.HttpProvider('http://localhost:7545');
