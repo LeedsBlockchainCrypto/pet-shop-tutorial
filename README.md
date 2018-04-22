@@ -28,6 +28,6 @@ initWeb3: function() {
     return App.initContract();
   },
 ```  
-For some reason it wasn't picking up gnache as a provider
+For some reason it wasn't picking up ganache as a provider
   
 Also I do not get a prompt from metamask asking me to confirm the adoption. This could be down to my confirguration. I haven't had a chance to work through why
